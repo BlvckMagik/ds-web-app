@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import type { TypographyOptions } from "@mui/material/styles/createTypography";
 import palette from "./palette";
 
@@ -9,12 +10,14 @@ const typography: TypographyOptions = {
   fontWeightMedium: 500,
   fontWeightBold: 600,
   h1: {
+    // @ts-ignore
     color: palette.secondary.main,
     fontSize: "176px",
     lineHeight: "140px",
     fontWeight: 600,
   },
   h3: {
+    // @ts-ignore
     color: palette.secondary.main,
     fontSize: "57px",
     lineHeight: "92.92px",
